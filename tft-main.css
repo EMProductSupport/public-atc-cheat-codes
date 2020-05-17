@@ -1,4 +1,3 @@
-/* BANNER BEHAVIOR */
 .tft-banner {
     margin: -20px 0 0 -105px;
     max-width: 120%;
@@ -7,7 +6,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-/* ACCORDION, TABS, AND INNER-CONTENT */
 .tst-location-link {
 cursor: pointer;
 color: #0073e6;
