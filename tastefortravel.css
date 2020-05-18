@@ -1,8 +1,77 @@
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* MEDIA QUERIES */
+/* Extra small devices */
+@media only screen and (max-width: 400px) {
+.banner-container {	
+margin: 0 0 0 -3px;
+position: relative;
+}
+.taste-title-intro {
+position: absolute;
+top: 10px;
+left: 3px;
+font-weight: 500;
+font-size: 12px;
+font-style: italic;
+}
+.taste-title-main {
+position: absolute;
+top: 25px;
+left: 1px;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: -3px;
+font-weight: 700;
+max-width: 150px;
+line-height: 0.5cm;
+}
+.taste-title-heading {
+position: absolute;
+top: 70px;
+left: 3px;
+font-weight: 400;
+font-size: 12px;
+max-width: 140px;
+height:10px;
+letter-spacing: -1px; }
+}
+/* Small devices */
+@media only screen and (max-width: 599px) {
+.banner-container {	
+margin: 0 0 0 -3px;
+position: relative;
+}
+.taste-title-intro {
+position: absolute;
+top: 20px;
+left: 3px;
+font-weight: 600;
+font-style: italic;
+}
+.taste-title-main {
+position: absolute;
+top: 40px;
+left: 1px;
+font-size: 35px;
+text-transform: uppercase;
+letter-spacing: -3px;
+font-weight: 700;
+max-width: 150px;
+line-height: 0.8cm;
+}
+.taste-title-heading {
+position: absolute;
+top: 130px;
+left: 3px;
+font-weight: 500;
+max-width: 200px;
+height:10px;
+letter-spacing: -1px; }
+}
+/* Medium devices */
 @media only screen and (min-width: 600px) {
 .banner-container {	
-	margin: 0 0 0 -3px;
-	position: relative;
+margin: 0 0 0 -3px;
+position: relative;
 }
 .taste-title-intro {
 position: absolute;
@@ -15,24 +84,96 @@ font-style: italic;
 position: absolute;
 top: 45px;
 left: 1px;
-font-size: 40px;
+font-size: 30px;
 text-transform: uppercase;
 letter-spacing: -3px;
 font-weight: 800;
-max-width: 300px;
+max-width: 250px;
 height:10px;
 line-height: 1.3cm;
 }
 .taste-title-heading {
 position: absolute;
-top: 150px;
+top: 140px;
 left: 3px;
 font-weight: 500;
-max-width: 450px;
+max-width: 200px;
 height:10px;
-letter-spacing: -1px; }
+letter-spacing: -1px;
+   }
 }
-/* End of Media Query */
+/* Large devices */
+@media only screen and (min-width: 992px) {
+.banner-container {	
+margin: 0 0 0 -3px;
+position: relative;
+}
+.taste-title-intro {
+position: absolute;
+top: 100px;
+left: 3px;
+font-weight: 600;
+font-style: italic;
+}
+.taste-title-main {
+position: absolute;
+top: 120px;
+left: 1px;
+font-size: 40px;
+text-transform: uppercase;
+letter-spacing: -3px;
+font-weight: 800;
+max-width: 350px;
+height:10px;
+line-height: 1.3cm;
+}
+.taste-title-heading {
+position: absolute;
+top: 250px;
+left: 3px;
+font-weight: 500;
+max-width: 350px;
+height:10px;
+letter-spacing: -1px;
+   }
+} 
+/* Extra large devices */
+@media only screen and (min-width: 1200px) {
+.banner-container {	
+margin: 0 0 0 -3px;
+position: relative;
+}
+.taste-title-intro {
+position: absolute;
+top: 90px;
+left: 3px;
+font-size: 18px;
+font-weight: 600;
+font-style: italic;
+}
+.taste-title-main {
+position: absolute;
+top: 120px;
+left: 1px;
+font-size: 60px;
+text-transform: uppercase;
+letter-spacing: -3px;
+font-weight: 800;
+max-width: 300px;
+height:10px;
+line-height: 1.5cm;
+}
+.taste-title-heading {
+position: absolute;
+top: 300px;
+left: 3px;
+font-size: 20px;
+font-weight: 600;
+max-width: 350px;
+height:10px;
+letter-spacing: -1px;}
+}
+/* END OF MEDIA QUERIES */
 .tst-location-link {
 cursor: pointer;
 color: #0073e6;
@@ -76,4 +217,3 @@ background: -webkit-linear-gradient(60deg, rgba(255,246,127,1) 0%, rgba(255,255,
 background: linear-gradient(60deg, rgba(255,246,127,1) 0%, rgba(255,255,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff67f",endColorstr="#ffffff",GradientType=1);
 }
-
