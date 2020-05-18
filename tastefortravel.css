@@ -169,12 +169,12 @@ letter-spacing: -1px;
 } 
 @media only screen and (min-width:1281px) {
 .banner-container {	
-	margin: 0 0 0 -3px;
+	margin: -20px -105px 0 -105px;
 	position: relative;
 }
 .taste-title-intro {
 position: absolute;
-top: 90px;
+top: 150px;
 left: 3px;
 font-size: 18px;
 font-weight: 600;
@@ -182,7 +182,7 @@ font-style: italic;
 }
 .taste-title-main {
 position: absolute;
-top: 120px;
+top: 180px;
 left: 1px;
 font-size: 60px;
 text-transform: uppercase;
@@ -194,7 +194,7 @@ line-height: 1.5cm;
 }
 .taste-title-heading {
 position: absolute;
-top: 300px;
+top: 380px;
 left: 3px;
 font-size: 20px;
 font-weight: 600;
