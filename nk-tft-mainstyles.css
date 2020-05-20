@@ -6,6 +6,11 @@ background: white;
 padding: 10px;
 }
 
+.banner-container {	
+	margin: -20px -120px 0 -120px;
+	position: relative;
+}
+
 .tst-location-link {
 cursor: pointer;
 color: #0073e6;
