@@ -1,3 +1,11 @@
+.tft-body {
+box-sizing: border-box;
+max-width: 1370px;
+margin: auto;
+background: white;
+padding: 10px;
+}
+
 .tst-location-link {
 cursor: pointer;
 color: #0073e6;
