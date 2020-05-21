@@ -1,0 +1,22 @@
+/*////////////////////////BANNER SECTION//////////////////////////////////*/
+/* DESKTOP BANNER */
+.cover-banner {  
+margin: -19px 0 0 0 !important;  
+}
+/* MOBILE BANNER */
+@media only screen and (min-width:481px) {
+.cover-banner {
+margin: -44px 0 0 0 !important;
+  }
+}
+/*Banner position attached to header module and main container - Override main rules*/
+.modules {
+   padding: 0 !important;
+}
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.container {
+    width: 100% !important;
+}
