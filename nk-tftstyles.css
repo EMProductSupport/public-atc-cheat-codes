@@ -153,6 +153,13 @@ font-size: 20px;
     width: 20px;
     height: 20px;
   }
+
+.mini-svgoc {
+padding-bottom: 3px;
+width: 20px;
+height: 20px;
+}
+
 .card-body {
     max-width: 220px;
   }  
@@ -166,11 +173,13 @@ padding-left:5px;
 font-size: 18px;
 }
 .tft-rcp-container {
-background: rgb(255,246,127) !important;
-background: -moz-linear-gradient(0deg, rgba(255,246,127,1) 0%, rgba(255,255,255,1) 100%) !important;
-background: -webkit-linear-gradient(0deg, rgba(255,246,127,1) 0%, rgba(255,255,255,1) 100%) !important;
-background: linear-gradient(0deg, rgba(255,246,127,1) 0%, rgba(255,255,255,1) 100%) !important;
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff67f",endColorstr="#ffffff",GradientType=1) !important;
+background: rgb(255,236,0);
+background: -moz-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+background: -webkit-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+background: linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffec00",endColorstr="#ffffff",GradientType=1);
+transition-duration: 3s;
+transition: background 3s, opacity 0;
 width: auto;
 height:auto;
 border-radius: 10px;
@@ -192,10 +201,10 @@ margin: 2px;
     font-weight: 600;
     font-size: 14px;
 }
-  .mini-svgoc {
-    padding-bottom: 3px;
-    width: 13px;
-    height: 13px;
+.mini-svgoc {
+padding-bottom: 3px;
+width: 13px !important;
+height: 13px !important;
 }
   .body-mobile {
     max-width: 300px !important;
