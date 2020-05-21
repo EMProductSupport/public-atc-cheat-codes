@@ -82,14 +82,14 @@ padding: 5px;
 cursor: pointer;
 color: #0073e6;
 font-weight: 700;
-font-size: 36px;
+font-size: 30px;
 }
 a:hover {
   color:#0073e6;
   text-decoration: none;
 }
 .svgoc { /* Open / Close SVG Icons */
-padding-bottom:20px;
+padding-bottom:10px;
 }
 .tft-location-container {
 background: rgb(255,236,0);
@@ -118,6 +118,7 @@ transition-duration: 3s;
 transition: background 3s, opacity 0;
 }
 .card-body {
+border-radius: 10px;  
 width:100%;
 height:auto;
 margin-top:15px;
@@ -141,4 +142,18 @@ color:#000;
 .card-body a:visited {
   color:#000 !important;
   text-decoration: none;
+}
+/* MOBILE TAB */
+@media only screen and (max-width:481px) {
+.tft-location-link {
+font-size: 20px;
+  }
+.svgoc {
+    padding-bottom: 3px;
+    width: 20px;
+    height: 20px;
+  }
+.card-body {
+    max-width: 200px;
+  }  
 }
