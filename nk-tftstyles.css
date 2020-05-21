@@ -4,9 +4,9 @@
 margin: -19px 0 0 0 !important;  
 }
 /* MOBILE BANNER */
-@media only screen and (min-width:481px) {
+@media only screen and (max-width:481px) {
 .cover-banner {
-margin: -44px 0 0 0 !important;
+margin: -28px 0 0 0 !important;
   }
 }
 /*Banner position attached to header module and main container - Override main rules*/
