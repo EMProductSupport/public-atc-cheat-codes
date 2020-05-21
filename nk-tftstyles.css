@@ -82,7 +82,7 @@ padding: 5px;
 cursor: pointer;
 color: #0073e6;
 font-weight: 700;
-font-size: 30px;
+font-size: 25px;
 }
 a:hover {
   color:#0073e6;
@@ -105,7 +105,7 @@ overflow: hidden;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-padding: 20px 0 0 20px;
+padding: 12px 0 12px 12px;
 margin: 2px;
 }
 .tft-location-container:hover {
@@ -148,6 +148,10 @@ color:#000;
 .tft-location-link {
 font-size: 20px;
   }
+  .tft-location-container {
+  border-radius: 7px;
+  padding: 5px 0 5px 10px;
+  }  
 .svgoc {
     padding-bottom: 3px;
     width: 20px;
@@ -159,7 +163,6 @@ padding-bottom: 3px;
 width: 20px;
 height: 20px;
 }
-
 .card-body {
     max-width: 220px;
   }  
@@ -189,17 +192,20 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 padding: 20px;
-margin: 2px;
+margin: -77px 2px 2px 2px;
 }
 /* MOBILE TAB */
 @media only screen and (max-width:481px) {
  .tft-rcp-container {
- padding: 5px;
- margin: -7px 0 0 0;
+  padding: 3px;
+    margin: -33px 0 0 0;
+    position: relative;
+    opacity: 0.7;
+    border-radius: 1px;
   }
   .tft-recipe-link {
-    font-weight: 600;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
 }
 .mini-svgoc {
 padding-bottom: 3px;
@@ -213,74 +219,4 @@ height: 13px !important;
     margin-right: 5px !important;
     margin-left: 5px !important;    
   }
-}
-
-/*////////////////////////BACK TO TOP BUTTON//////////////////////////////////*/
-html,
-  body {
-    scroll-behavior: smooth;
-  }
-
-.BtnTop {
-  display: none;
-  position: fixed;
-  bottom: 2px;
-  right: 3px;
-  z-index: 99;
-  font-size: 13px;
-  border: none;
-  outline: none;
-  background-color: #0073e6;
-  color: white;
-  cursor: pointer;
-  padding: 13px;
-  border-radius: 2px;
-  opacity: 0.7;
-}
-
-.BtnTop:hover {
-  background-color: #0073f6;
-  opacity: 1.0;
-}
-
-.no-show {
-  padding: 0 3rem;
-  position: relative;
-  max-width: auto;
-  margin: 2rem auto;
-}
-.no-show *:last-child {
-  margin-bottom: 10px;
-}
-
-.back-to-top-wrapper {
-  position: absolute;
-  top: 100vh;
-  right: 0.25rem;
-  bottom: -5em;
-  width: auto;
-  pointer-events: none;
-}
-
-.back-to-top-link {
-  position: fixed;
-  position: -webkit-sticky;
-  position: sticky;
-  pointer-events: all;
-  top: calc(100vh - 5rem);
-  display: inline-block;
-  text-decoration: none;
-  
-  -webkit-transition: -webkit-transform 80ms ease-in;
-  transition: -webkit-transform 80ms ease-in;
-  transition: transform 80ms ease-in;
-  transition: transform 80ms ease-in, -webkit-transform 80ms ease-in;
-}
-.back-to-top-link:hover, .back-to-top-link:focus {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-.back-to-top-link:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.5px #0073;
 }
