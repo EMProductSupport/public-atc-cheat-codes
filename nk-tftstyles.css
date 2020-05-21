@@ -91,7 +91,7 @@ a:hover {
 .svgoc { /* Open / Close SVG Icons */
 padding-bottom:20px;
 }
-.tst-location-container {
+.tft-location-container {
 background: rgb(255,236,0);
 background: -moz-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 76%, rgba(255,255,255,1) 100%);
 background: -webkit-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 76%, rgba(255,255,255,1) 100%);
@@ -108,7 +108,7 @@ justify-content: space-between;
 padding: 30px 0 10px 30px;
 margin: 0;
 }
-.tst-location-container:hover {
+.tft-location-container:hover {
 background: rgb(255,236,0);
 background: -moz-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
 background: -webkit-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
