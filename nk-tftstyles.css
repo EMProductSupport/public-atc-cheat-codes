@@ -117,3 +117,28 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffec00",endCo
 transition-duration: 3s;
 transition: background 3s, opacity 0;
 }
+.card-body {
+width:100%;
+height:auto;
+margin-top:15px;
+background: rgb(255,236,0);
+background: -moz-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+background: -webkit-linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+background: linear-gradient(60deg, rgba(255,236,0,1) 0%, rgba(255,236,0,1) 45%, rgba(255,255,255,1) 84%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffec00",endColorstr="#ffffff",GradientType=1); /*color when mouseover*/
+transition-duration: 3s;
+transition: background 3s, opacity 0;
+color:#000;
+}
+.card-body a:link {
+  color:#000 !important;
+  text-decoration: none;
+}
+.card-body a:active {
+  color:#000 !important;
+  text-decoration: none;
+}
+.card-body a:visited {
+  color:#000 !important;
+  text-decoration: none;
+}
