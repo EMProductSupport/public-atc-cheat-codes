@@ -1,0 +1,37 @@
+.pwpanel-wrapper {
+  position: relative;
+}
+.pwshow, .pwhide {
+  position: absolute;
+  bottom: -1em;
+  z-index: 100;
+}
+.pwhide {
+  display: none;
+}
+.pwshow:target {
+  display: none;
+}
+.pwshow:target ~ .pwhide {
+  display: block;
+}
+.pwshow:target ~ .pw-panel {
+  max-height: 2000px;
+}
+.pwshow:target ~ .pw-fade {
+  margin-top: 0;
+}
+.pw-panel {
+  position: relative;
+  margin: 2em auto;
+  width: 100%;
+  max-height: 100px;
+  overflow: hidden;
+  -webkit-transition: max-height .5s ease;
+  transition: max-height .5s ease;
+}
+.pw-fade { 
+  height: 100px;
+  margin-top: -100px;
+  position: relative;
+}
